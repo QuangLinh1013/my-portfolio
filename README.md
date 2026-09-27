@@ -40,7 +40,7 @@ npm run preview  # Xem thử bản build đã tạo
 - `/` — Trang Work: giới thiệu, kỹ năng, tech stack, dự án tiêu biểu, quy trình làm việc và liên hệ.
 - `/info/` — Trang Info: thông tin cá nhân, câu chuyện và hình ảnh.
 
-Đây là cấu hình Vite nhiều trang. Khi deploy, cần publish nội dung trong `dist/` và cấu hình host phục vụ `info/index.html` tại đường dẫn `/info/`.
+Đây là cấu hình Vite nhiều trang. GitHub Actions build website với base path `/my-portfolio/` và deploy nội dung trong `dist/`. Trong repository GitHub, mở **Settings → Pages** và chọn **GitHub Actions** làm Build and deployment source. Sau đó mỗi lần push lên `main`, workflow sẽ tự build và deploy cả hai trang.
 
 ## Cấu trúc thư mục
 
