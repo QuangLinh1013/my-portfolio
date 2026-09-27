@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="view-transition" content="same-origin" />
+    <title>My 3D Portfolio</title>
+    <style>
+      html { background-color: #080808; }
+      img { max-width: 100%; height: auto; display: block; }
+      .reveal-text { opacity: 0; }
+    </style>
+  </head>
+  <body>
+    <canvas id="webgl-canvas"></canvas>
+
+    <section class="section-1 work-hero">
+      <div class="content work-hero-content">
+        <span class="eyebrow reveal-text">Portfolio / Software Engineer</span>
+        <h1 class="reveal-text">Building reliable systems with clean interfaces.</h1>
+        <p class="hero-lead reveal-text">
+          I design backend architecture, APIs and product experiences that stay clear,
+          scalable and calm to work with.
+        </p>
+        <div class="hero-meta reveal-text">
+          <span>Based in Vietnam</span>
+          <span>Backend focused</span>
+          <span>Open to collaboration</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-2">
+      <div class="content about-content">
+        <span class="eyebrow reveal-text">01 / Capabilities</span>
+        <h2 class="reveal-text">Architecture & Backend Engineering</h2>
+        <p class="reveal-text bio">
+          I focus on building maintainable backend systems with clear boundaries,
+          reliable APIs, secure authentication and deployment workflows that are easy
+          to improve over time.
+        </p>
+
+        <div class="skills-wrapper">
+          <h3 class="reveal-text">Core Technologies</h3>
+          <div class="skills-grid">
+            <span class="skill-tag reveal-text">Node.js</span>
+            <span class="skill-tag reveal-text">TypeScript</span>
+            <span class="skill-tag reveal-text">NestJS</span>
+            <span class="skill-tag reveal-text">Spring Boot</span>
+            <span class="skill-tag reveal-text">MySQL</span>
+            <span class="skill-tag reveal-text">PostgreSQL</span>
+            <span class="skill-tag reveal-text">Redis</span>
+            <span class="skill-tag reveal-text">Docker</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-3">
+      <div class="content stack-content">
+        <span class="eyebrow reveal-text">02 / Technical Stack</span>
+        <h2 class="reveal-text">What I work with</h2>
+        <div class="skill-groups">
+          <article class="skill-card reveal-text">
+            <span>Architecture & Systems</span>
+            <p>Hexagonal Architecture, RESTful APIs, Message Queue with BullMQ, Docker.</p>
+          </article>
+          <article class="skill-card reveal-text">
+            <span>Backend Development</span>
+            <p>RESTful API, CRUD, JWT Authentication, RBAC, MVC and basic Clean Architecture.</p>
+          </article>
+          <article class="skill-card reveal-text">
+            <span>Languages</span>
+            <p>Java, JavaScript and TypeScript.</p>
+          </article>
+          <article class="skill-card reveal-text">
+            <span>Frameworks</span>
+            <p>Node.js, Express.js, NestJS and Spring Boot.</p>
+          </article>
+          <article class="skill-card reveal-text">
+            <span>Database</span>
+            <p>MySQL, Oracle, PostgreSQL, SQL Server and Redis.</p>
+          </article>
+          <article class="skill-card reveal-text">
+            <span>ORM</span>
+            <p>Sequelize, Prisma, TypeORM and Hibernate.</p>
+          </article>
+          <article class="skill-card reveal-text">
+            <span>DevOps</span>
+            <p>Docker, Docker Compose, Linux, Nginx, GitHub Actions and basic CI/CD.</p>
+          </article>
+          <article class="skill-card reveal-text">
+            <span>Version Control</span>
+            <p>Git, GitHub, branching, commits, pull requests, merge and conflict resolution.</p>
+          </article>
+          <article class="skill-card reveal-text">
+            <span>Cloud & Deployment</span>
+            <p>VPS and basic AWS EC2, RDS and S3 deployment flows.</p>
+          </article>
+          <article class="skill-card reveal-text">
+            <span>Tools</span>
+            <p>Postman, Swagger and VS Code.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-4">
+      <div class="content projects-content">
+        <span class="eyebrow reveal-text">03 / Selected Work</span>
+        <h2 class="reveal-text">Featured Work</h2>
+        <div class="project-list">
+          <div class="project-item reveal-text">
+            <div class="project-name">Movie Streaming</div>
+            <div class="tech-stack">React / Tailwind CSS / NestJS / MySQL / TypeORM</div>
+          </div>
+
+          <div class="project-item reveal-text">
+            <div class="project-name">Aura Social Network</div>
+            <div class="tech-stack">Next.js / API Design / Authentication</div>
+          </div>
+
+          <div class="project-item reveal-text">
+            <div class="project-name">Linhfood Platform</div>
+            <div class="tech-stack">React / Tailwind CSS / Product UI</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-5">
+      <div class="content process-content">
+        <span class="eyebrow reveal-text">04 / Working Style</span>
+        <h2 class="reveal-text">How I approach software</h2>
+        <div class="process-list">
+          <div class="process-item reveal-text">
+            <span>01</span>
+            <h3>Design the boundaries</h3>
+            <p>Start from modules, responsibilities and data flow so the system is easier to extend.</p>
+          </div>
+          <div class="process-item reveal-text">
+            <span>02</span>
+            <h3>Build the API contract</h3>
+            <p>Use RESTful patterns, Swagger documentation and predictable validation for client teams.</p>
+          </div>
+          <div class="process-item reveal-text">
+            <span>03</span>
+            <h3>Secure the workflow</h3>
+            <p>Apply JWT authentication, RBAC permissions and clean error handling for safer products.</p>
+          </div>
+          <div class="process-item reveal-text">
+            <span>04</span>
+            <h3>Prepare for deployment</h3>
+            <p>Containerize services, configure Nginx and keep CI/CD simple enough to maintain.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-6">
+      <div class="content contact-content">
+        <span class="eyebrow reveal-text">05 / Contact</span>
+        <h2 class="reveal-text">Let's Connect</h2>
+        <p class="reveal-text">
+          Ready to build reliable systems and thoughtful digital products together.
+        </p>
+        <a href="mailto:your.email@example.com" class="contact-btn reveal-text">
+          Send me an Email
+        </a>
+      </div>
+    </section>
+
+    <script type="module" src="./src/pages/home.js"></script>
+  </body>
+</html>

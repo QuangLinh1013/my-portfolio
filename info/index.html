@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="view-transition" content="same-origin" />
+    <title>Info - My Portfolio</title>
+    <style>
+      html { background-color: #080808; }
+      img { max-width: 100%; height: auto; display: block; }
+      .reveal-item { opacity: 0; }
+    </style>
+  </head>
+  <body>
+    <canvas id="webgl-canvas"></canvas>
+    <section class="info-section">
+      <div class="info-grid">
+        <div class="col-left">
+          <div class="img-wrapper reveal-item">
+            <img src="../src/assets/portrait.jpg" alt="Info image 1" />
+          </div>
+          <div class="text-block reveal-item">
+            <h3>My background in Software Engineering.</h3>
+            <p>In recent years, I have been deeply involved in building scalable systems. I became obsessed with architectural design and optimization.</p>
+            <p>I was deeply fascinated in the concepts of modularity and adaptability — how our digital environment could organically evolve in conjunction with user needs.</p>
+          </div>
+        </div>
+        <div class="col-right">
+          <div class="text-block reveal-item mt-offset">
+            <p class="large-text">This is my story — alongside some flicks from my recent trips.</p>
+          </div>
+          <div class="img-wrapper reveal-item img-tall">
+            <img src="../src/assets/portrait.jpg" alt="Info image 2" />
+          </div>
+        </div>
+      </div>
+      
+      <div class="info-extra">
+        <div class="info-grid info-grid-followup">
+          <div class="col-left">
+            <div class="text-block reveal-item">
+              <h3>Designing systems that can breathe.</h3>
+              <p>For me, a strong architecture is not about adding complexity. It is about leaving enough space for a product to grow without losing its shape.</p>
+              <p>I enjoy mapping the invisible connections between people, data and interfaces, then turning them into code that feels calm to work with.</p>
+            </div>
+            <div class="img-wrapper reveal-item">
+              <img src="../src/assets/portrait.jpg" alt="A quiet street from a recent trip" />
+            </div>
+          </div>
+          <div class="col-right">
+            <div class="img-wrapper reveal-item img-tall">
+              <img src="../src/assets/portrait.jpg" alt="A detail from my creative workspace" />
+            </div>
+            <div class="text-block reveal-item">
+              <h3>Outside the screen.</h3>
+              <p>Travel gives me the same perspective that good engineering does: slow down, notice the details and understand how every small part belongs to a larger whole.</p>
+              <p>That curiosity follows me back to the desk, where I keep learning, building and looking for a simpler answer.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="info-grid info-grid-followup">
+          <div class="col-left">
+            <div class="img-wrapper reveal-item">
+              <img src="../src/assets/portrait.jpg" alt="A glowing abstract scene" />
+            </div>
+          </div>
+          <div class="col-right">
+            <div class="text-block reveal-item">
+              <h3>From idea to interface.</h3>
+              <p>I like staying close to the whole process, from understanding a real problem to shaping the details people touch every day.</p>
+              <p>Every screen is an invitation to make the underlying system more thoughtful.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="info-grid info-grid-followup">
+          <div class="col-left">
+            <div class="text-block reveal-item">
+              <h3>Quiet details, lasting impact.</h3>
+              <p>Readable code, useful feedback and careful performance work are small choices, but together they make a product feel trustworthy.</p>
+            </div>
+          </div>
+          <div class="col-right">
+            <div class="img-wrapper reveal-item img-tall">
+              <img src="../src/assets/portrait.jpg" alt="Architecture and light from a recent trip" />
+            </div>
+          </div>
+        </div>
+
+        <div class="info-grid info-grid-followup">
+          <div class="col-left">
+            <div class="img-wrapper reveal-item">
+              <img src="../src/assets/portrait.jpg" alt="A street waiting to be explored" />
+            </div>
+          </div>
+          <div class="col-right">
+            <div class="text-block reveal-item">
+              <p class="large-text">There is always another useful thing to build, another detail to notice and another direction worth exploring.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <script type="module" src="../src/pages/info.js"></script>
+  </body>
+</html>
+
