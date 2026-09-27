@@ -122,10 +122,11 @@ export function renderFloatingMenu() {
   indicator.className = 'nav-indicator-pill';
   navPill.appendChild(indicator);
 
+  const basePath = import.meta.env.BASE_URL;
   const isInfoPage = window.location.pathname.includes('info');
   const items = [
-    { label: 'Work', href: '/', active: !isInfoPage },
-    { label: 'Info', href: '/info/', active: isInfoPage },
+    { label: 'Work', href: basePath, active: !isInfoPage },
+    { label: 'Info', href: `${basePath}info/`, active: isInfoPage },
   ];
 
   items.forEach(({ label, href, active }) => {
